@@ -327,7 +327,21 @@ export default function Home() {
         </div>
 
         <div className="absolute bottom-8 text-[10px] text-neutral-600 tracking-[0.3em] font-mono">
-          KII TESTNET V3 • CHAIN ID 1336
+          KII TESTNET V3 | DEVELOPED BY{" "}
+          <a
+            href="https://github.com/linnbenton/kii-dapp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+      text-yellow-300
+      hover:text-cyan-200
+      transition-all duration-300
+      font-bold
+      drop-shadow-[0_0_8px_rgba(34,211,238,0.45)]
+    "
+          >
+            KIIBUILDER
+          </a>
         </div>
       </div>
     );

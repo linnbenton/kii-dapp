@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KiiDApp Counter ⚡
 
-## Getting Started
+Modern onchain counter dashboard built for the KiiChain ecosystem.
 
-First, run the development server:
+KiiDApp Counter delivers a production-style blockchain experience with real smart contract interaction, automatic KiiChain network detection, wallet connectivity, transaction monitoring, and a responsive cyberpunk-inspired interface powered by KiiChain Testnet V3.
+
+---
+
+## ✨ Core Features
+
+- Secure MetaMask Wallet Connection
+- Automatic KiiChain Network Detection
+- One-Click Network Switching
+- Live Onchain Counter Synchronization
+- Real Smart Contract Transactions
+- Transaction Explorer Integration
+- Responsive Mobile-Ready Interface
+- Neon Cyberpunk Dashboard UI
+- Production-Style Wallet Experience
+- Real-Time Blockchain Interaction
+
+---
+
+## 🌐 KiiChain Testnet V3
+
+| Configuration | Value               |
+| ------------- | ------------------- |
+| Network       | KiiChain Testnet V3 |
+| Chain ID      | 1336                |
+| Currency      | KII                 |
+
+### RPC Endpoint
+
+```bash
+https://json-rpc.uno.sentry.testnet.v3.kiivalidator.com/
+```
+
+### Block Explorer
+
+```bash
+https://explorer.kiichain.io
+```
+
+---
+
+## 🛠 Technology Stack
+
+- Next.js
+- React
+- TypeScript
+- TailwindCSS
+- ethers.js
+- MetaMask
+
+---
+
+## 🚀 Local Development
+
+### Clone the project
+
+```bash
+git clone https://github.com/linnbenton/kii-dapp.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Create production build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚙ Current System Modules
 
-To learn more about Next.js, take a look at the following resources:
+- Wallet Authentication Layer
+- KiiChain Network Validation
+- Automatic Chain Switching
+- Smart Contract Write Operations
+- Live Contract State Updates
+- Transaction Status Tracking
+- Explorer Redirect System
+- Responsive Dashboard Layout
+- Animated Neon UI Components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Design Language
 
-## Deploy on Vercel
+KiiDApp Counter is heavily inspired by:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- cyberpunk operating systems
+- next-generation exchange terminals
+- neon financial infrastructure
+- sci-fi protocol dashboards
+- modern blockchain ecosystems
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The interface focuses on immersive visual feedback, high-contrast gradients, responsive interactions, and production-grade dashboard aesthetics.
+
+---
+
+## 🔥 Project Vision
+
+KiiDApp Counter is designed as a modern ecosystem showcase dApp demonstrating how applications on KiiChain can combine:
+
+- real blockchain interaction
+- ultra-low latency UX
+- scalable frontend architecture
+- responsive infrastructure dashboards
+- immersive ecosystem branding
+- production-ready wallet workflows
+
+---
+
+## 📱 Responsive Experience
+
+The application is optimized for:
+
+- Desktop Dashboards
+- Mobile Devices
+- Tablet Interfaces
+- Hackathon Demo Presentations
+
+---
+
+## 📄 License
+
+MIT License
+
+Copyright (c) 2026 KiiBuilder
