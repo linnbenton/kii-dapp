@@ -1,3 +1,5 @@
+![KiiBuilder](https://img.shields.io/badge/KiiBuilder-Submission%20Ready-blue)
+
 # ⚡ KiiDApp Counter
 
 Modern on-chain counter dApp built on **KiiChain Testnet V3**, showcasing real-time blockchain interaction, wallet-based execution flow, and production-style decentralized UI architecture.
