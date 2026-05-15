@@ -1,141 +1,96 @@
-# KiiDApp Counter ⚡
+# ⚡ KiiDApp Counter
 
-Modern onchain counter dashboard built for the KiiChain ecosystem.
-
-KiiDApp Counter delivers a production-style blockchain experience with real smart contract interaction, automatic KiiChain network detection, wallet connectivity, transaction monitoring, and a responsive cyberpunk-inspired interface powered by KiiChain Testnet V3.
+Modern on-chain counter dApp built on **KiiChain Testnet V3**, showcasing real-time blockchain interaction, wallet-based execution flow, and production-style decentralized UI architecture.
 
 ---
 
-## ✨ Core Features
+## 🌐 Live Demo
 
-- Secure MetaMask Wallet Connection
-- Automatic KiiChain Network Detection
-- One-Click Network Switching
-- Live Onchain Counter Synchronization
-- Real Smart Contract Transactions
-- Transaction Explorer Integration
-- Responsive Mobile-Ready Interface
-- Neon Cyberpunk Dashboard UI
-- Production-Style Wallet Experience
-- Real-Time Blockchain Interaction
+https://kii-dapp.vercel.app/
 
 ---
 
-## 🌐 KiiChain Testnet V3
+## 🧾 Smart Contract Deployment
 
-| Configuration | Value               |
-| ------------- | ------------------- |
-| Network       | KiiChain Testnet V3 |
-| Chain ID      | 1336                |
-| Currency      | KII                 |
+**Contract Address**  
+0x91cD62fe26b01BB4302C8ea1C45B97dA5a1a3387
 
-### RPC Endpoint
+**Network**  
+KiiChain Testnet V3 (Chain ID: 1336)
 
-```bash
-https://json-rpc.uno.sentry.testnet.v3.kiivalidator.com/
-```
-
-### Block Explorer
-
-```bash
-https://explorer.kiichain.io
-```
+**Transaction Proof**  
+https://explorer.kiichain.io/tx/eth/1ed1810796d89da7a821e20d4b0ed9c233f15c74560b124971ba2cd2e6e6c9cc
 
 ---
 
-## 🛠 Technology Stack
+## ⚡ Core Features
 
-- Next.js
-- React
-- TypeScript
-- TailwindCSS
-- ethers.js
-- MetaMask
-
----
-
-## 🚀 Local Development
-
-### Clone the project
-
-```bash
-git clone https://github.com/linnbenton/kii-dapp.git
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Start development server
-
-```bash
-npm run dev
-```
-
-### Create production build
-
-```bash
-npm run build
-```
+- MetaMask wallet integration
+- Automatic KiiChain network detection
+- One-click chain switching
+- Live on-chain counter synchronization
+- Real smart contract read/write operations
+- Transaction lifecycle tracking via explorer
+- Responsive cyberpunk UI
+- Production-style dApp architecture
 
 ---
 
-## ⚙ Current System Modules
+## 🛠 Tech Stack
 
-- Wallet Authentication Layer
-- KiiChain Network Validation
-- Automatic Chain Switching
-- Smart Contract Write Operations
-- Live Contract State Updates
-- Transaction Status Tracking
-- Explorer Redirect System
-- Responsive Dashboard Layout
-- Animated Neon UI Components
+Next.js • React • TypeScript • TailwindCSS • ethers.js • MetaMask
 
 ---
 
-## 🎨 Design Language
+## 🔧 Architecture Overview
 
-KiiDApp Counter is heavily inspired by:
+KiiDApp Counter is structured as a lightweight decentralized application with clear separation of concerns:
 
-- cyberpunk operating systems
-- next-generation exchange terminals
-- neon financial infrastructure
-- sci-fi protocol dashboards
-- modern blockchain ecosystems
+- **UI Layer** → React + Tailwind (cyberpunk dashboard interface)
+- **Web3 Layer** → ethers.js wallet + provider integration
+- **On-chain Layer** → deployed smart contract on KiiChain Testnet V3
 
-The interface focuses on immersive visual feedback, high-contrast gradients, responsive interactions, and production-grade dashboard aesthetics.
+The application continuously synchronizes UI state with on-chain contract state to ensure real-time consistency.
 
 ---
 
-## 🔥 Project Vision
+## 🔥 What this demonstrates
 
-KiiDApp Counter is designed as a modern ecosystem showcase dApp demonstrating how applications on KiiChain can combine:
+This project demonstrates:
 
-- real blockchain interaction
-- ultra-low latency UX
-- scalable frontend architecture
-- responsive infrastructure dashboards
-- immersive ecosystem branding
-- production-ready wallet workflows
-
----
-
-## 📱 Responsive Experience
-
-The application is optimized for:
-
-- Desktop Dashboards
-- Mobile Devices
-- Tablet Interfaces
-- Hackathon Demo Presentations
+- Real blockchain transaction execution on KiiChain
+- Seamless wallet onboarding experience (MetaMask)
+- Live state synchronization from smart contract
+- Network-aware dApp architecture (auto chain detection)
+- Production-grade Web3 frontend structure
 
 ---
 
-## 📄 License
+## 📱 UX Design
 
-MIT License
+Cyberpunk-inspired interface focusing on:
 
-Copyright (c) 2026 KiiBuilder
+- Neon UI feedback system
+- Real-time transaction states
+- Dashboard-style interaction flow
+- High-contrast immersive trading-terminal aesthetic
+
+---
+
+## 🧭 Purpose
+
+KiiDApp Counter is a focused ecosystem contribution showcasing how KiiChain can support:
+
+- consumer-ready decentralized applications
+- real-time blockchain UX patterns
+- scalable Web3 frontend architecture
+- intuitive wallet-based interaction flows
+
+---
+
+## 📌 Summary
+
+- Fully deployed on KiiChain Testnet V3
+- Verified smart contract interaction
+- Live transaction proof on explorer
+- Production-grade Web3 architecture
